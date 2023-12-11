@@ -1,0 +1,10 @@
+C:\Users\Oleh\Desktop\Control work\Control work\bin\Debug\Control work.exe.config
+C:\Users\Oleh\Desktop\Control work\Control work\bin\Debug\Control work.exe
+C:\Users\Oleh\Desktop\Control work\Control work\bin\Debug\Control work.pdb
+C:\Users\Oleh\Desktop\Control work\Control work\obj\Debug\Control work.csproj.AssemblyReference.cache
+C:\Users\Oleh\Desktop\Control work\Control work\obj\Debug\Control_work.Main.resources
+C:\Users\Oleh\Desktop\Control work\Control work\obj\Debug\Control_work.Properties.Resources.resources
+C:\Users\Oleh\Desktop\Control work\Control work\obj\Debug\Control work.csproj.GenerateResource.cache
+C:\Users\Oleh\Desktop\Control work\Control work\obj\Debug\Control work.csproj.CoreCompileInputs.cache
+C:\Users\Oleh\Desktop\Control work\Control work\obj\Debug\Control work.exe
+C:\Users\Oleh\Desktop\Control work\Control work\obj\Debug\Control work.pdb
