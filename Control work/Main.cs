@@ -123,17 +123,29 @@ namespace Control_work
 
         private void button_confirm_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Дякуємо за покупку!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (detals.Count == 0)
+            {
+                MessageBox.Show("Ваша корзинка пуста!", "Error!", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                return;
+            }
+            else MessageBox.Show("Дякуємо за покупку!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
         }
 
         private void button_filters_Click(object sender, EventArgs e)
         {
+            if(detals.Count == 0)
+            {
+                MessageBox.Show("Ваша корзинка пуста!", "Error!", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                return;
+            }
             listBox_filters.Items.Clear();
             listBox_filters.ClearSelected();
             try
             {
                 DateTime date = dateTimePicker_filters.Value;
                 string str = comboBox_filters.Text;
+                string t = comboBox_filters.SelectedItem.ToString();
             }
             catch(Exception exception)
             {
